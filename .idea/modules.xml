@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/org.wso2.iot.pos.simulator.iml" filepath="$PROJECT_DIR$/org.wso2.iot.pos.simulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-app/org.wso2.iot.pos.simulator.portal.iml" filepath="$PROJECT_DIR$/web-app/org.wso2.iot.pos.simulator.portal.iml" />
+    </modules>
+  </component>
+</project>
