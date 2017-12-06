@@ -4,7 +4,7 @@
 <head>
     <title>Payment</title>
 </head>
-<body>
+<body class="signup-page">
 <h1>Payment</h1>
 <script>
     var webSocket = new WebSocket("ws://localhost:8080/request");
@@ -12,7 +12,7 @@
         alert(event.data);
     }
 </script>
-<button onclick="socket.send('Message')">send</button>
+<button onclick="webSocket.send('Message')">send</button>
 
 </body>
 </html>

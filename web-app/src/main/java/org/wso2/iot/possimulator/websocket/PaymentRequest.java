@@ -1,5 +1,6 @@
 package org.wso2.iot.possimulator.websocket;
 
+import javax.servlet.http.HttpServlet;
 import javax.websocket.OnClose;
 import javax.websocket.OnMessage;
 import javax.websocket.OnOpen;
@@ -7,7 +8,7 @@ import javax.websocket.Session;
 import javax.websocket.server.ServerEndpoint;
 
 @ServerEndpoint("/request")
-public class PaymentRequest {
+public class PaymentRequest extends HttpServlet {
     private Session session;
 
     @OnOpen

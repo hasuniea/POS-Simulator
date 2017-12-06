@@ -70,7 +70,7 @@ public class register extends HttpServlet {
             @Override
             public void messageArrived(String topic, MqttMessage message) throws Exception {
                 System.out.println(topic + ": " + message);
-
+                
                 out.println("<script language=javascript");
                 out.println("alert \'you have got messages\'");
                 out.println("</script>");
@@ -81,7 +81,7 @@ public class register extends HttpServlet {
             public void deliveryComplete(IMqttDeliveryToken token) {//Called when a outgoing publish is complete
             }
         });
-       // req.getRequestDispatcher("/payment.jsp").forward(req, res);
+       req.getRequestDispatcher("/payment.jsp").forward(req, res);
 
     }
 

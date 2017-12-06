@@ -12,7 +12,7 @@
         alert(event.data);
     }
 </script>
-<button onclick="socket.send('Message')">send</button>
+<button onclick="webSocket.send('Message')">send</button>
 
 </body>
 </html>
